@@ -1,0 +1,177 @@
+<DOCTYPE! html>
+    <html lang="en">
+    <head>
+        <title>Order Tickets</title>
+        <link rel="stylesheet" href="../css/order.css">
+        <script src ="../javascript/order.js"></script>
+        </head>
+
+        <body onload = "init();">
+            <header>
+                <div id ="container">
+                    <a href = "../index.html"><img src="../image/logo.png" alt="Hong Kong Disneyland Logo"></a>
+                    <h1><strong>DisneyLand</strong></h1>
+                </div>
+                
+             
+                
+        <div id = "mainContainer">
+            <div id ="menu">
+                <h2>MENU</h2>  
+                <div class ="tabbed">
+                    <div class = "tab">
+                        <h3 class="menuitem">Tickets</h3>
+                        <div id ="tickets" class ="offers">
+                            
+                            <form class="formItem">
+                                <img src="../image/ticket-1.jpeg" alt="1 Day Ticket Standard">
+                                <div class ="input">
+                                    <label for="1daystd">1-Day Ticket</label>
+                                    <input type="number" id="1daystd" min="0">
+                                    <input type="button" class="addbtn" value="Add">
+                                </div>
+                                
+                                <br>
+                            </form>
+            
+                            <form class="formItem">
+                                <img src="../image/ticket-2.jpeg" alt="1 Day Ticket Child">
+                                <div class ="input">
+                                    <label for="1daychild">1-Day Ticket (Child)</label>
+                                    <input type="number" id="1daychild" min="0">
+                                    <input type="button" class="addbtn" value="Add">
+                                </div>
+                                
+                                <br>
+                            </form>
+            
+                            <form class="formItem">
+                                <img src="../image/ticket-3.jpeg" alt="2 Day Ticket">
+                                <div class ="input">
+                                    <label for="2day">2 Day</label>
+                                    <input type="number" id="2day" min="0">
+                                    <input type="button" class="addbtn" value="Add">
+                                </div>
+
+                                <br>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class = "tab">
+                        <h3 class="menuitem">Dining</h3>    
+                        <div id="dining" class="offers">
+                            <form class="formItem">
+                            
+                                <img src="../image/dining-1.jpeg" alt="Explorer's Semi Buffet">
+                                <div class ="input">
+                                    <label for="buffet">Explorer's Semi Buffet</label>
+                                    <input type="number" id="buffet" min="0">
+                                    <input type="button" class="addbtn" value="Add">
+                                </div>
+                                
+                                <br>
+                            </form>
+                            <form class="formItem">
+                                <img src="../image/dining-2.jpeg" alt="3-in-1 Park Meal Voucher">
+                                <div class ="input">
+                                    <label for="mealvoucher">3-in-1 Park Meal Voucher</label>
+                                    <input type="number" id="mealvoucher" min="0">
+                                    <input type="button" class="addbtn" value="Add">
+                                </div>
+                            
+                                <br>
+                            </form class="formItem">
+                        </div>
+                    </div>
+
+                    <div class = "tab">   
+                    
+                        <h3 class="menuitem">Hotel</h3>         
+                    <div id="hotel" class="offers">
+                        <form class="formItem">
+                            <img src="../image/hotel-1.jpeg" alt="Standard Room">
+                            <div class ="input">
+                                <label for="stdroom">Standard Room</label>
+                                <input type="number" id="stdroom" min="0">
+                                <input type="button" class="addbtn" value="Add">
+                            </div>
+                            
+                            <br>
+                        </form>
+                        <form class="formItem">
+                            <img src="../image/hotel-2.jpeg" alt="Deluxe Room">
+                            <div class ="input">
+                                <label for="deluxeroom">Deluxe Room</label>
+                                <input type="number" id="deluxeroom" min="0">
+                                <input type="button" class="addbtn" value="Add">
+                            </div>
+                            
+                            <br>
+                        </form>
+                        <form class="formItem">
+                            <img src="../image/hotel-3.jpeg" alt="Sea View Room">
+                            <div class ="input">
+                                <label for="seaviewroom">Sea View Room</label>
+                                <input type="number" id="seaviewroom" min="0">
+                                <input type="button" class="addbtn" value="Add">
+                            </div>
+                        
+                            <br>
+                        </form>
+        
+                        <form class="formItem">
+                            <img src="../image/hotel-4.jpeg" alt="Kingdom Club Room">
+                            <div class ="input">
+                                <label for="kingdomclub">Kingdom Club Room</label>
+                                <input type="number" id="kingdomclub" min="0">
+                                <input type="button" class="addbtn" value="Add">
+                            </div>
+                            
+                            <br>
+                        </form>
+        
+                    </div>
+                </div>
+                
+              </div>
+            </div>
+            
+    
+           
+
+            <div id="ordered">
+                <h2>Ordered Items</h2>
+                <h4>4 March 2025, 20:30 </h4>
+                <table >
+                    <caption>Table: 4 - No. of Guests 3 </caption>
+                    <thead>
+                        <tr>
+                            <th>Description</th>
+                            <th>Qty</th>
+                        </tr>
+                    </thead>
+                    <tbody id ="orderTableBody">
+
+                    </tbody>
+                   <tfoot>
+                    <tr>
+                        <th>Total</th>
+                        <th id = "sum">0</th>
+                    </tr>
+                   </tfoot>
+                   
+                </table>
+                   
+                <a id ="undo">Undo</a>
+            </div>
+        </div>
+           
+
+            <footer>
+                <p>@CityU 2024 – sources of images and text from official website of Hong Kong Disneyland, Wikipedia and Courtesy of Icon pack by Icons8 – designed by <a href="../html/design.html">Law Tian En Rachel </a><br><br></p>
+                </footer>
+                
+        </body>
+
+    </html>

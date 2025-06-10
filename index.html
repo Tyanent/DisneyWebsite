@@ -1,0 +1,106 @@
+<DOCTYPE! html>
+    <html lang="en">
+
+    <head>
+        <title>Hong Kong Disneyland</title>
+        <link rel="stylesheet" href="css/theme.css">
+        <script src="javascript/homepage.js"></script>
+        <script src = "https://personal.cs.cityu.edu.hk/~cs2204/cs2204cw3.js"></script>
+    </head>
+
+    <body onload = "init();">
+
+      <header>
+        <div id ="container">
+            <img src="image/logo.png" alt="Hong Kong Disneyland Logo">
+            <h1><strong>DisneyLand</strong></h1>
+        </div>
+        
+    
+    </header>
+
+        <div id="welcome">
+            <img src="image/header.jpg" alt="Hong Kong Disneyland">
+            <div id="text">
+                <h2>WELCOME!</h2>
+            </div>
+        </div>
+
+        <div id="navigation">
+            <p><strong>Address:</strong></p>
+            <p class="desc">Hong Kong Disneyland Resort,<br>Penny's Bay, Lantau Island,<br>Hong Kong</p>
+            <p><strong>Tel</strong></p>
+            <p class="desc">+852 1-830-830</p>
+            <p><strong>Business Hours</strong> </p>
+            <p class="desc">10:30 AM to 8:30 PM</p>
+            <p><strong>Brief Introduction</strong></p>
+            <p class="desc">Enter a magical kingdom inspired by fairy-tale dreams and explore 7 lands - Adventureland,
+                Grizzly Gulch, Mystic Point, Toy Story Land, Fantasyland, Tomorrowland and Main Street USA - filed with
+                beauty, excitement and Disney Characters.</p>
+            <p><strong>Location</strong></p> <br>
+            <img src="image/location.jpg" alt="Map of Disneyland Hong Kong" id="map"><br>
+
+            <a href="html/order.html"><img src="image/button.jpg" id="map"></a>
+        </div>
+        <div id = "pageContent">
+            <div id="promo">
+            <h2 id ="promoMsg"></h2>
+            <video id="vid" controls autoplay muted>
+                <source src="" type="video/mp4">
+            </video>
+
+
+        </div>
+
+
+        <div id="booking">
+            <fieldset>
+                <legend>Booking Information</legend>
+                <form name ="booking" >
+                    <div>
+                        <label for="bookDate">Date:</label>
+                        <input type="date" id="bookDate" name="bookDate">
+                    </div>
+                    <div>
+                        <label for="bookTime">Time:</label>
+                        <input list="times" id="bookTime" name="bookTime">
+                        <datalist id="times">
+                            <option value="8:00 AM - 10:00 AM">
+                            <option value="10:00 AM - 12:00 PM">
+                            <option value="12:00 PM - 2:00 PM">
+                            <option value="2:00 PM - 4:00 PM">
+                            <option value="4:00 PM - 6:00 PM">
+                        </datalist>
+                    </div>
+                    <div>
+                        <label for="visitors">No. of Visitors:</label>
+                        <input type="number" id="visitors" name="visitors" min="1"><br>
+                        <br>
+                    </div>
+    
+    
+                    <p id="warning">Data Not Completed, please re-enter<p>
+    
+                    <input type="button" id="checkAvail" value="Check Availability" onclick="checkInput()">
+                    <input type="reset" id="Reset" value="Reset">
+    
+                </form>
+            </fieldset>
+        </div>
+        
+        
+        </div>
+
+
+
+            
+        <footer>
+        <p>@CityU 2024 – sources of images and text from official website of Hong Kong Disneyland, Wikipedia and Courtesy of Icon pack by Icons8 – designed by <a href="../html/design.html">Law Tian En Rachel </a><br><br></p>
+        </footer>
+        
+
+
+
+    </body>
+
+    </html>

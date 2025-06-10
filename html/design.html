@@ -1,0 +1,122 @@
+<DOCTYPE! html>
+    <html lang="en">
+
+    <head>
+        <title>Design Page</title>
+        <link rel="stylesheet" href="../css/theme.css">
+    </head>
+
+    <body>
+        <header>
+            <div id ="container">
+                <img src="../image/logo.png" alt="Hong Kong Disneyland Logo">
+                <h1><strong>DisneyLand</strong></h1>
+            </div>
+        </header>   
+        <div id="welcome">
+            <img src="../image/header.jpg" alt="Hong Kong Disneyland">
+            <div id="text">
+                <h2>WELCOME!</h2>
+            </div>
+        </div>
+
+        <div id="designPG">
+            <h2>Design Page</h2><br>
+            <h4>CSS Selectors:</h4>
+            <ul>
+                <li>Element Selector(s): header { background-color: rgb(156, 156, 255); padding: 15px; box-shadow: 0px
+                    15px 40px 10px rgb(96, 96, 96); color: white; }, fieldset { margin: 30px auto; width: 94%; border:
+                    3px solid rgb(104, 104, 228); border-radius: 10px; background-color: rgb(156, 156, 255); box-shadow:
+                    5px 5px 30px 2px rgb(104, 104, 228); text-align: center; height: 300px; }, footer { margin: -10px;
+                    margin-top:
+                    400px; height: 150px; padding: 20px; text-align: center; background-color: rgb(156, 156, 255);
+                    box-shadow: 0px -2px 15px 2px rgb(74, 74, 116); }, table, th, td{ padding: 4px; width:300px;
+                    font-size: 12px; text-align: left; }, th, td{ margin: 3px; background-color: rgb(182, 182, 250) ; }
+                </li>
+                <li>Class Selector(s): p.desc { margin: 10px; }, .formItem { display: flex; flex-direction: row;
+                    align-items: center; }, .menuitem { display: block ; text-align: center; background-color: rgb(156,
+                    156, 255); border-radius: 30px 30px 0px 0px; padding: 10px; width: 352px; transition:
+                    background-color 0.5s; }, .menuitem:hover{ border-width: 2px; padding: 8px; border-style: solid;
+                    border-color: rgb(156, 156, 255); border-bottom-color: white; color: rgb(156, 156, 255);
+                    background-color: white; }, .tabbed{ display: flex; position: absolute; flex-wrap: wrap; },
+                    .formItem{ display: flex; margin: 0px; padding: 10px; width: 352px; } </li>
+                <li>ID Selector(s):#container{ width: 300px; display: flex; align-items: center; justify-content:
+                    center; }, #welcome { z-index: -1; height: 500px; overflow: hidden; color: rgb(216, 186, 186);
+                    margin:0px; }, #navigation { margin: 40px; background-color: aliceblue; border-radius:15px; float:
+                    left; width: 460px; padding: 20px; }, #map { margin-top: 25px; display: block; border-radius: 10px;
+                    }, #pageContent{ width: 900px; margin: auto; margin-top: 30px; padding: 5px; display: inline-block;
+                    }, #promo { text-align: center; font-size: 13px; margin-top: 5px; }, #warning{ display: none; },
+                    #menu{ display: inline; margin: 5px; width: 78%; }, #mainContainer{ display: flex; height: 500px;
+                    },#container{ width: 300px; height: 100px; display: flex; align-items: center; justify-content:
+                    center; gap: 10px; margin-bottom: 70px; } ,#ordered{ margin: 5px; text-align: center; width: 22%;
+                    background-color: white; padding: 10px; color:black; border-radius: 10px; box-shadow: 0px 5px 5px
+                    5px rgb(96, 96, 96); }, #designPG { display:flex; margin: 20px; background-color: rgb(237, 237,
+                    237); border-radius: 30px; padding: 20px; } </li>
+                <li>Contextual Selector(s): #welcome img { transform: translate(0, -18%); width: 100%; height: auto;
+                    opacity: 70%; },
+                    #welcome h2 { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color:
+                    black; font-size: 100px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+                    sans-serif;}, #promo video{ display: block; margin: auto; margin-top: 12px; width: 880px;
+                    border-radius: 10px; } #promo h2 { display: inline-block; padding: 10px; width: 850px;
+                    background-color: rgb(156, 156, 255); border-radius: 50px; color: white; },#booking legend { margin:
+                    0 auto; margin-top: -25px; padding: 8px; width: 380px; font-size: 30px; color: white; border: 3px
+                    solid rgb(104, 104, 228);; border-radius: 10px; background-color: rgb(156, 156, 255); box-shadow:
+                    5px 5px 30px 2px rgb(74, 74, 116); }, form label { font-weight: bolder; width: 200px; font-size:
+                    14px; text-align: left; }, #booking label { display: inline-block; }form input { width: 200px;
+                    padding: 3px; margin-bottom: 5px; }, form input[type=button], input[type=reset] { border-radius:
+                    30px; background-color: white; border: 0px; background-image: linear-gradient(rgb(255, 133, 92),
+                    rgb(254, 193, 128) 40%, rgb(255, 133, 92)); }, .formItem img { width: 300px; margin: 15px;
+                    border-radius: 20px; }, .formItem input[type=submit] { width: 100px; background-color: rgb(254, 193,
+                    128); }, #menu h2{ border-radius: 30px; background-color: rgb(156, 156, 255); padding: 25px; color:
+                    white; text-align: center; margin-bottom: 10px; }, .tab:hover div{ display: flex; flex-wrap: wrap;
+                    }, #ordered h2, h4{ padding: 10px }, form .input { display: flex; flex-direction: column; width:
+                    180px; margin-bottom: 5px; }, form input[type=button], input[type=reset] { display: block;
+                    border-radius: 30px; background-color: white; border: 0px; }, form label { margin: 0px; display:
+                    block; font-weight: bolder; color:black; font-size: 14px; }, .formItem img { width: 150px; height:
+                    75px; border-radius: 10px; margin: 5px;}, .formItem input[type=button] { margin: 10px; margin-left:
+                    -2px; width: 80px; background-color: rgb(254, 193, 128); }, .formItem input[type=number]{ margin: 0;
+                    width: 170px; }, </li>
+                <li>Universal Selector: *{ font-family:Arial, Helvetica, sans-serif; line-height: 25px; margin: 0 auto;}
+                </li>
+            </ul>
+            <br>
+            <h4>Other CSS3 Techniques</h4>
+            <ul>
+                <li>Animations: Button Animation (form input[type=button], input[type=reset] { border-radius: 30px;
+                    background-color:
+                    white; border: 0px; background-image: linear-gradient(rgb(255, 133, 92), rgb(254, 193, 128) 40%,
+                    rgb(255, 133, 92)); : 1s padding; } form input[type=button]:hover, input[type=reset]:hover{ padding:
+                    10px; }), Menu Tabs (.menuitem { display: block ; text-align: center; background-color: rgb(156,
+                    156, 255); border-radius: 30px 30px 0px 0px; padding: 10px; width: 352px;
+                    transition:background-color 0.5s; } .menuitem:hover{ border-width: 2px; padding: 8px; border-style:
+                    solid; border-color: rgb(156, 156, 255); border-bottom-color: white; color: rgb(156, 156, 255);
+                    background-color: white; })
+                <li>
+
+                <li>Gradients: Button Gradient (background-image: linear-gradient(rgb(255, 133, 92), rgb(254, 193, 128) 40%,
+                    rgb(255, 133, 92));)</li>   
+            </ul>
+            <h4>Additional Sources</h4>
+            <ul>
+                <li>Welcome Banner Image<br>
+                    Hong Kong Disneyland. Hong Kong Disneyland,
+                    cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/vision-dam/digital/hkdl-platform/hkdl-standard-assets/finder_hk/en-intl/system/images/g-l/hkdl-theme-park-1280x720-new.jpg?2022-05-22T00:00:22+00:00.
+                    Accessed 5 Mar. 2025.
+                </li>
+            </ul>
+            <br>
+            <h2>Name: Law Tian En Rachel</h2>
+            <h2>SID: 57890457</h2>
+            <br>
+
+        </div>
+
+        <footer>
+            <p>@CityU 2024 – sources of images and text from official website of Hong Kong Disneyland, Wikipedia and
+                Courtesy of Icon pack by Icons8 – designed by <a href="../html/design.html">Law Tian En Rachel
+                </a><br><br></p>
+        </footer>
+
+    </body>
+
+    </html>
